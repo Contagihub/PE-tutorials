@@ -43,7 +43,11 @@ class FreeplaySelectState extends MusicBeatState{
                 MusicBeatState.switchState(new FreeplayState());
                 case 1:
                 MusicBeatState.switchState(new FreeplayCategory2State());
-            }
+                case 2:
+                MusicBeatState.switchState(new FreeplayCategory3State());
+                case 3:
+                MusicBeatState.switchState(new FreeplayCategory4State());
+             }
         }
         super.update(elapsed);
     }
