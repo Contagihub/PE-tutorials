@@ -45,7 +45,7 @@ class FreeplayCategory2State extends MusicBeatState{
 
 	override function create()
 	{
-		addSong('Tutorial', 1, 'gf', FlxColor.RED);
+		addSong('driTINHO', M, 'MITO', FlxColor.RED);
 		addSong('World', 2, 'bf', FlxColor.BLUE);
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
